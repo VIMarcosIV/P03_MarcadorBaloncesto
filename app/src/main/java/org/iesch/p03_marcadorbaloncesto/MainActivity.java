@@ -36,9 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
         // 5 - Me creo un método para restar la puntuación visitante
         binding.visitorMinusButton.setOnClickListener(v -> {
-            if (localScore > 0 ){
+            if (visitorScore > 0 ){
                 visitorScore--;
-                binding.visitorScoreText.setText(String.valueOf(localScore));
+                binding.visitorScoreText.setText(String.valueOf(visitorScore));
             }
         });
         // 6 - Me creo un metodo para sumar la puntuación local
